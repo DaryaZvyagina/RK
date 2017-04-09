@@ -1,4 +1,5 @@
-﻿using System;
+﻿using RK.Views;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,7 +14,7 @@ namespace RK
         {
             InitializeComponent();
 
-            MainPage = new RK.MainPage();
+            MainPage = new NavigationPage(new MainPage());
         }
 
         protected override void OnStart()

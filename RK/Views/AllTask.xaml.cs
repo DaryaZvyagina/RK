@@ -3,13 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+
 using Xamarin.Forms;
 
-namespace RK
+namespace RK.Views
 {
-    public partial class MainPage : ContentPage
+    public partial class AllTask : ContentPage
     {
-        public MainPage()
+        public AllTask()
         {
             InitializeComponent();
         }
